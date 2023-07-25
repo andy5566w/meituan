@@ -1,9 +1,9 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
+  <MobileLayout />
 </template>
 
-<script>
-
+<script setup>
+import MobileLayout from "./components/layout/MobileLayout.vue";
 </script>
 
 <style>
