@@ -7,6 +7,10 @@ const router = createRouter({
       path: "/header",
       component: () => import("@/components/layout/header/MeituanHeader.vue"),
     },
+    {
+      path: '*',
+      component: () => import('@/components/NotFound.vue')
+    }
   ],
 });
 

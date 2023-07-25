@@ -2,6 +2,9 @@
   <section>
     <MeituanHeader />
     <MeituanTabs />
+    <div class="container">
+      container
+    </div>
   </section>
 </template>
 
